@@ -1,0 +1,34 @@
+[
+  { 
+    "name": "Bruce Wayne",
+    "email": "bruce@notAVigilante.com",
+    "phone": "800-456-1234",
+    "birthdate": "04/01/2020",
+    "id": 1,
+    "aka": "Batman"
+  },
+  { 
+    "name": "Light Yagami",
+    "email": "lightYG@topSchool.edu",
+    "phone": "000-123-4567",
+    "birthdate": "01/02/2001",
+    "id": 2,
+    "aka": "Kira"
+  },
+  { 
+    "name": "Walter White",
+    "email": "walter@grayMatter.com",
+    "phone": "800-876-3090",
+    "birthdate": "12/01/2010",
+    "id": 3,
+    "aka": "Heisenberg"
+  },
+  {
+    "name": "Aang",
+    "email": "Aang@avatar.com",
+    "phone": "800-555-1234",
+    "birthdate": "9/15/1910",
+    "id": 4,
+    "aka": "Roku"
+  }
+]
