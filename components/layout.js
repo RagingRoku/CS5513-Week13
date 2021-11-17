@@ -7,7 +7,7 @@ export default function Layout( {children, home} ){
   return(
     <div>
       <Head>
-        <title>Martin&apos;s 4-4 Server Party Goes Full-Stack</title>
+        <title>Martin&apos;s 12-12 Server Party Goes Headless</title>
       </Head>
       <main>{children}</main>
       {!home && (
