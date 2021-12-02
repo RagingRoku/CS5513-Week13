@@ -13,8 +13,7 @@ export async function getStaticProps ({params}){
 
   return{
     props: {
-      itemData,
-      //akaData
+      itemData
     }
   };
 }
@@ -40,10 +39,9 @@ export default function Entry({itemData}){
       <div className="card-body">
         <h5 className="card-title">{itemData.post_title}</h5>
         <h6 className="card-subtitle mb-2 text-muted">Created: {itemData.post_date}</h6>
-        <p className="card-text">{itemData.birthdate}</p>
-        <p className="card-text">
-          {itemData.post_content}
-        </p>
+        <h6 className="card-subtitle mb-2">By: {itemData.user_login}</h6>
+
+        <p className="card-text" dangerouslySetInnerHTML={{__html: itemData.post_content}} />
 
         
 
